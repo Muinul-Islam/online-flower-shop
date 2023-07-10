@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Styles for banner section */
+.banner-section {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head {
+    font-size: 80px;
+    padding-bottom: 10px;
+}
+
+.image {
+    padding-top: 30px;
+}
+
+.btn {
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+}
+.paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    padding-bottom:10px ;
+}
+.feature-heading{
+    text-align: center;
+}
+.feature-heading h1{
+    font-size: 40px
+}
