@@ -115,18 +115,72 @@
     justify-content: space-around;
     align-items: center;
 }
-.pink{
+
+.pink {
     color: rgb(255, 87, 115);
 }
-.deal-info h1{
+
+.deal-info h1 {
     font-size: 40px;
     color: #272727;
     padding-bottom: 15px;
 }
-.image-deal{
+
+.image-deal {
     width: 280px;
     height: 320px;
 }
-.deal-info p{
+
+.deal-info p {
     padding-bottom: 15px;
+}
+
+/* Styles For Instagram section */
+.instagram-heading{
+    text-align: center;
+}
+.instagram-section h1 {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 55px 0 25px 0;
+}
+.instagram-section p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.instagram-photo{
+    height: 150px;
+}
+.instagram-photos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.subscribe-section{
+    margin-top: 380px;
+    margin-left: 17%;
+    width: 70%;
+    height: 370px;
+    background-image: url("/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.subscribe-section h1{
+    font-size: 40px;
+    color: #272727;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: 800;
+}
+.subscribe-section p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.input{
+    padding: 20px 250px 20px 20px;
 }
